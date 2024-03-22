@@ -31,7 +31,7 @@ a = 2
 
 # Task 1: Auto-correlation of input signal
 y = auto_correlation(x)
-print("Auto-correlation of x[n]:", y)
+print("Auto-correlation of y[n]:", y)
 
 # Significance of y[0]
 y_0_significance = "Even" if y[0] % 2 == 0 else "Odd"
